@@ -15,6 +15,8 @@ Game nông trại 2D bằng tiếng Việt, chạy trực tiếp trên trình du
 
 ## Tính năng
 
+Bản 0.2 — **Nhịp mùa**: giao diện xanh mây và gỗ sáng, thanh dự báo gợi ý giống cây; hoạt ảnh bước đi 4 hướng; NPC đi dạo; hiệu ứng tưới/thu hoạch. Bật **Liên tiếp** để xếp tối đa 8 việc và dùng **■** để hủy. Trò chuyện với NPC ngắt chuỗi việc để ưu tiên hội thoại.
+
 - Nhân vật chính và 3 NPC, di chuyển A* theo 8 hướng, tránh vật cản.
 - Cà rốt, lúa mì, dâu tây; kinh nghiệm, cửa hàng, nhiệm vụ và mở rộng đất.
 - Tuyển nhân viên và mở dụng cụ bằng vé trong game, không có thanh toán tiền thật.

@@ -1,6 +1,6 @@
 {
   "name": "nong-trai-may",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Game nông trại pixel 2D chạy trên web, hỗ trợ chuột và cảm ứng",
   "scripts": {"test": "node tests/run.cjs"}
