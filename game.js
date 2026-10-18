@@ -129,7 +129,7 @@ function walk(tx,ty,fn,interact=false){
  if(!path.length){arrival=anim;moveGoal=null;if(pending){let f=pending;pending=null;actionFlash=.5;f()}}
 }
 function viewMetrics(){const r=canvas.getBoundingClientRect(),mobile=r.width<=760||(r.height<=520&&r.width<=1100),landscape=r.width>r.height,safeTop=Math.max(0,($('.hud-top')?.getBoundingClientRect?.().bottom??54)-r.top-54),safeBottom=Math.max(0,r.height-(document.querySelector('nav')?.getBoundingClientRect?.().bottom??r.height)+r.top-6),top=(mobile?(landscape?65:170):80)+safeTop,bottom=(mobile?(landscape?170:215):150)+safeBottom;
- const scale=camera.overview?Math.max(.12,Math.min((r.width-24)/W,Math.max(100,r.height-top-bottom)/H)):mobile?1.1:Math.min(r.width/W,r.height/H);
+ const scale=camera.overview?Math.max(.12,Math.min((r.width-24)/W,Math.max(100,r.height-top-bottom)/H)):mobile?1.1:Math.min(Math.max(320,r.width-240)/W,Math.max(180,r.height-210)/H);
  return {r,mobile,landscape,top,bottom,scale,focusY:(top+Math.max(top+100,r.height-bottom))/2};}
 function viewport(){let m=viewMetrics(),scale=m.scale*zoom,cy=camera.overview?H/2+(m.r.height/2-m.focusY)/scale:camera.y,cx=camera.overview?W/2:camera.x;
  return {...m,scale,ox:m.r.width/2-cx*scale,oy:m.r.height/2-cy*scale,left:cx-m.r.width/scale/2,up:cy-m.r.height/scale/2,worldWidth:m.r.width/scale,worldHeight:m.r.height/scale};}

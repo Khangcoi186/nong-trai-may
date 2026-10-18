@@ -4,6 +4,8 @@ Game nông trại 2D bằng tiếng Việt, chạy trực tiếp trên trình du
 
 ## Chơi
 
+**[Mở game trên trình duyệt](https://khangcoi186.github.io/nong-trai-may/)**
+
 - Chạm/bấm để nhân vật tự tìm đường và tương tác với ruộng hoặc NPC.
 - Kéo để xem bản đồ; chụm hai ngón hoặc dùng +/− để thu/phóng.
 - ⌖ theo nhân vật; ▧ xem toàn trang trại.
